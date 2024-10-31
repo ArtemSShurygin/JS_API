@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+}
+.lesson {
+	display: flex;
+}
+
+.lesson_element {
+	display: flex;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid black;
+}
+
+.lesson__name {
+	width: 490px;
+	padding: 5px;
+}
+
+.lesson__time {
+	width: 190px;
+	padding: 5px;
+}
+
+.lesson__participants {
+	width: 200px;
+	padding: 5px;
+}
+
+.lesson__registration {
+	width: 260px;
+	padding: 5px;
+}
+
+.lesson__button_box {
+	min-width: 130px;
+}
+
+.lesson__btn {
+	width: 130px;
+	font-size: 16px;
+	border: none;
+}
+
+.lesson__btn button {
+	width: 130px;
+	border: none;
+}

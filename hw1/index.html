@@ -3,11 +3,22 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<h1>Расписание занятий</h1>
-		<div class="lessons"></div>
+		<main class="container">
+			<h1 class="title">Расписание занятий</h1>
+
+			<div class="lessons">
+				<section class="lesson">
+					<div class="lesson_element"><p class="lesson__name">Занятия</p></div>
+					<div class="lesson_element"><p class="lesson__time">Время</p></div>
+					<div class="lesson_element"><p class="lesson__participants">Участники</p></div>
+					<div class="lesson_element"><p class="lesson__registration">Записаться/Отменить запись</p></div>
+				</section>
+			</div>
+		</main>
 
 		<script src="./data.js"></script>
 		<script src="./script.js"></script>
